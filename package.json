@@ -1,0 +1,26 @@
+{
+  "name": "screeps-arena-starter",
+  "version": "1.0.0",
+  "description": "Starter Package for Typescript in Screeps Arena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kurios/screeps-arena-starter.git"
+  },
+  "keywords": [
+    "screeps",
+    "starter"
+  ],
+  "author": "kuriosly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kurios/screeps-arena-starter/issues"
+  },
+  "homepage": "https://github.com/Kurios/screeps-arena-starter#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}

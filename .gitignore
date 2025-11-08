@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Build output
+output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build Logs
+npm-debug.log*
+
+# IDE files
+.vscode/
+
+# Misc
+.DS_Store
+*.log
