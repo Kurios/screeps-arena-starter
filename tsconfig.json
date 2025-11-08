@@ -42,7 +42,8 @@
     "skipLibCheck": true,
     "baseUrl":"src",
     "paths":{
-      "@common/*":["common/*"]
+      "@common/*":["common/*"],
+      "game/*":["../typings/game/*"]
     },
     "rootDirs": ["src/common","src/season-1/construct-control"]
   }
