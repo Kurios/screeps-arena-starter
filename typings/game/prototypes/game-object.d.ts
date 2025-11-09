@@ -32,6 +32,12 @@ declare module "game/prototypes/game-object" {
      * All objects and classes are inherited from this class
      */
     export class GameObject extends Position {
+        
+        /** 
+         * This is kinda a fake idea of "memory" on each creep to provide some half-compatability with World. It does not exist by default and therefor is "undefined" and optional.
+         */
+        memory: Any|undefined;
+
         /** true if this object is live in the game at the moment */
         exists: boolean;
 

@@ -19,3 +19,4 @@ npm-debug.log*
 
 # Player Source
 src/
+src/season-1/portal-exploration/main.mts

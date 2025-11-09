@@ -132,6 +132,7 @@ declare module "game/prototypes/creep" {
      * @extends GameObject
      */
     export class Creep extends GameObject {
+
         /** An array describing the creep’s body */
         body: Array<{type: BodyPartType, hits: number}>;
 

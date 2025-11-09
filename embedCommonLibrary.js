@@ -10,7 +10,7 @@ async function fixPaths(dir){
                 }
             }else{
                 let text = await fs.readFile(file.parentPath + "/" + file.name,'utf-8')
-                let replaced = text.replaceAll("from '@common/", "from 'common/")
+                let replaced = text.replaceAll("from '@common/", "from './common/")
                 await fs.writeFile(file.parentPath + "/" + file.name,replaced)
             }
         })
